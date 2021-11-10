@@ -266,7 +266,8 @@ button:active {
   #clear {
     top: 80px;
   }
-  
+    .popUp{width:60%}
+
 .newGame,
 .HighScores,
   .exitGame{font-size:1rem}
@@ -275,7 +276,7 @@ button:active {
   .container {
     top: 22%;
   }
-  
+  .popUp{width:60%}
 .newGame,
 .HighScores,
   .exitGame{font-size:1rem}
@@ -284,7 +285,8 @@ button:active {
   .container {
     top: 18%;
   }
-  
+    .popUp{width:60%}
+
 .newGame,
 .HighScores,
   .exitGame{font-size:1rem}
