@@ -266,14 +266,26 @@ button:active {
   #clear {
     top: 80px;
   }
+  
+.newGame,
+.HighScores,
+  .exitGame{font-size:1rem}
 }
 @media (max-width: 800px) and (min-width: 600px) {
   .container {
     top: 22%;
   }
+  
+.newGame,
+.HighScores,
+  .exitGame{font-size:1rem}
 }
 @media (max-width: 1024px) and (min-width: 800px) {
   .container {
     top: 18%;
   }
+  
+.newGame,
+.HighScores,
+  .exitGame{font-size:1rem}
 }
