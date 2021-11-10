@@ -270,7 +270,7 @@ button:active {
 
 .newGame,
 .HighScores,
-  .exitGame{font-size:1rem}
+  .exitGame{font-size:1.5rem}
 }
 @media (max-width: 800px) and (min-width: 600px) {
   .container {
@@ -279,7 +279,7 @@ button:active {
   .popUp{width:60%}
 .newGame,
 .HighScores,
-  .exitGame{font-size:1rem}
+  .exitGame{font-size:1.5rem}
 }
 @media (max-width: 1024px) and (min-width: 800px) {
   .container {
@@ -289,5 +289,5 @@ button:active {
 
 .newGame,
 .HighScores,
-  .exitGame{font-size:1rem}
+  .exitGame{font-size:2rem}
 }
