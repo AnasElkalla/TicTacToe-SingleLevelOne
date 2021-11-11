@@ -57,7 +57,7 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  singlel1.close();
+  Window.close();
 });
 home.addEventListener("click", function () {
   makeSound();
