@@ -55,7 +55,7 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  window.close("", "_parent", "_");
+  window.location="https://anaselkalla.github.io/TicTacToeHome/";
 });
 newGame.addEventListener("click", function () {
   makeSound();
