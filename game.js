@@ -32,7 +32,6 @@ const exit = document.querySelector(".exitGame");
 const buttons = document.querySelectorAll("button");
 
 
-let newWindow;  
   
 
 
@@ -61,10 +60,11 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  function openWindow() {  
-  newWindow = window.open("", "myWindow", "width=200,height=100");  
-}  
-  newWindow.close();  
+  makeSound();
+  const back = function () {
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
+  };
+  setTimeout(back, 1000);
 });
 home.addEventListener("click", function () {
   makeSound();
@@ -72,6 +72,13 @@ home.addEventListener("click", function () {
     window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
+
+  newGame.addEventListener("click", function () {
+  makeSound();
+  const newtry = function () {
+    window.location="https://anaselkalla.github.io/TicTacToeHome/";
+  };
+  setInterval(newtry, 1000);
 });
 const turn = document.querySelector(".turn");
 let order = ["X", "O", "X", "O", "X", "O", "X", "O", "X"];
