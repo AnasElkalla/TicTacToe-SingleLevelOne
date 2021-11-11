@@ -30,8 +30,7 @@ const newGame = document.querySelector(".newGame");
 const scores = document.querySelector(".HighScores");
 const exit = document.querySelector(".exitGame");
 const buttons = document.querySelectorAll("button");
-const singlel1="https://anaselkalla.github.io/TicTacToe-SingleLevelOne/";
-window.open(singlel1);
+
 
 let newWindow;  
   
