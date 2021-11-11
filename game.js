@@ -71,7 +71,7 @@ home.addEventListener("click", function () {
   const homePage = function () {
     window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
-  setInterval(homePage, 1000);
+  setInterval(homePage, 1000);})
 
   newGame.addEventListener("click", function () {
   makeSound();
