@@ -55,11 +55,9 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  window.location="https://anaselkalla.github.io/TicTacToeHome/";
-});
-newGame.addEventListener("click", function () {
   makeSound();
-  const homePage = function () {
+  const back=function(){    window.location="";
+                       }setInterval(back,1000)
     window.location="https://anaselkalla.github.io/TicTacToeHome/";
   };
   setInterval(homePage, 1000);
