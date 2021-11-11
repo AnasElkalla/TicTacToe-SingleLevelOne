@@ -32,6 +32,13 @@ const exit = document.querySelector(".exitGame");
 const buttons = document.querySelectorAll("button");
 const singlel1="https://anaselkalla.github.io/TicTacToe-SingleLevelOne/";
 window.open(singlel1);
+
+let newWindow;  
+  
+function openWindow() {  
+  newWindow = window.open("", "myWindow", "width=200,height=100");  
+}  
+
 let activeMenu = false;
 const makeSound = function () {
   let click = new Audio("click.mp3");
@@ -57,7 +64,7 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  Window.close();
+  newWindow.close();  
 });
 home.addEventListener("click", function () {
   makeSound();
