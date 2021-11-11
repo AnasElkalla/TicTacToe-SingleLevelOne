@@ -34,9 +34,7 @@ const buttons = document.querySelectorAll("button");
 
 let newWindow;  
   
-function openWindow() {  
-  newWindow = window.open("", "myWindow", "width=200,height=100");  
-}  
+
 
 let activeMenu = false;
 const makeSound = function () {
@@ -63,6 +61,9 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
+  function openWindow() {  
+  newWindow = window.open("", "myWindow", "width=200,height=100");  
+}  
   newWindow.close();  
 });
 home.addEventListener("click", function () {
