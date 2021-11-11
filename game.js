@@ -305,7 +305,7 @@ if (ended === false) {
         };
         setTimeout(playerO, 2000);
       });
-    }
+    } 
   }
 }
 // twoPlayers.addEventListener("click", function (e) {
