@@ -30,6 +30,8 @@ const newGame = document.querySelector(".newGame");
 const scores = document.querySelector(".HighScores");
 const exit = document.querySelector(".exitGame");
 const buttons = document.querySelectorAll("button");
+const singlel1="https://anaselkalla.github.io/TicTacToe-SingleLevelOne/";
+window.open(singlel1);
 let activeMenu = false;
 const makeSound = function () {
   let click = new Audio("click.mp3");
@@ -55,12 +57,7 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  makeSound();
-  const back=function(){    window.location="";
-                       }setInterval(back,1000)
-    window.location="https://anaselkalla.github.io/TicTacToeHome/";
-  };
-  setInterval(homePage, 1000);
+  window.close();
 });
 home.addEventListener("click", function () {
   makeSound();
