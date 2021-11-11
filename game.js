@@ -55,7 +55,7 @@ menu.addEventListener("click", function () {
  
 });
 exit.addEventListener("click", function (e) {
-  window.close("", "_parent", "");
+  window.close("", "_parent", "_");
 });
 newGame.addEventListener("click", function () {
   makeSound();
