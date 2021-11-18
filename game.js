@@ -226,7 +226,7 @@ if (ended === false) {
       }
       const playerX = function () {
         for (let x = 0; x < 9; x++) {
-          if (active === false) {
+          if (active === false && ended===false) {
             let roll = Math.floor(Math.random() * 9);
             if (mark[roll] === "") {
               table[roll].textContent = "O";
@@ -286,7 +286,7 @@ if (ended === false) {
         const playerO = function () {
           if (
             active === false &&
-            results[results.length - 1].textContent === "O"
+            results[results.length - 1].textContent === "O" && ended===false
           ) {
             let roll = Math.floor(Math.random() * 9);
             if (mark[roll] === "") {
